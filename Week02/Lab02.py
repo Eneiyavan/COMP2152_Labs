@@ -13,7 +13,7 @@ else:
     if playerChoice == computerChoice:
         print("It's a tie!")
     elif playerChoice == 1 and computerChoice == 3:
-        print("Rock beats Sciccors - You Win!3")
+        print("Rock beats Sciccors - You Win!")
     elif playerChoice == 2 and computerChoice == 1:
         print("Paper beats Rock - You Win!")
     elif playerChoice == 3 and computerChoice == 2:
