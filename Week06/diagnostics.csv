@@ -1,0 +1,4 @@
+ping,3,Success,google.com,2026-02-20 09:27:19
+nslookup,Not found,google.com,2026-02-20 09:27:42,Failed
+Captured,2026-02-20 09:27:49,02-41-0E-A8-50-BD / 10.4.96.30,ipconfig,all
+11 devices,Captured,2026-02-20 09:27:55,arp,local
