@@ -25,7 +25,7 @@ class SimpleScanner:
             sock.settimeout(1)
             result = sock.connect_ex((self.target, port))
             if result == 0:
-                print(f"Port {port} OPEN")
+                print(f"    Port {port}: OPEN")
                 self.open_ports.append(port)
                 return True
             return False
@@ -37,12 +37,12 @@ class SimpleScanner:
             self.scan_port(port)
 
     def display_results(self):
-        print(f" Result for {self.target}:")
+        print(f"    Result for {self.target}")
         if not self.open_ports:
-            print(f"No open ports found!")
+            print("    No open ports found.")
         else:
             for port in self.open_ports:
-                print(f"Port {port} OPEN")
+                print(f"    Port {port}")
 
     
 
